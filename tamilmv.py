@@ -73,7 +73,7 @@ async def send_torrent(user: Client, file_path, category, file_name, file_url, m
             print(f"⚠️ Send failed: {e}")
 
     await safe_send(TMV_TORRENT)
-    await safe_send(TMV_LEECH_GRP, reply_cmd="/qbleech")
+    await safe_send(TMV_LEECH_GRP, reply_cmd="/qbleech4")
     await safe_send(TMV_MIRROR_GRP, reply_cmd="/qbmirror")
     await add_tmv(file_name, file_url, magnet, size_mb)
 
