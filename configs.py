@@ -25,7 +25,7 @@ TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003917558467"))
 TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "-1003802832984"))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", "-1003802832984"))
 TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/fzLP45dM/x.jpg") #torrant Pic
-BOT_TAG = os.getenv("BOT_TAG", "") # File Prefix
+BOT_TAG = os.getenv("BOT_TAG", "@FormulaXT") # File Prefix
 
 # Internal
 PING_INTERVAL = int(os.getenv("PING_INTERVAL", "120"))
