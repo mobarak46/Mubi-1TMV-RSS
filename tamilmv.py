@@ -57,7 +57,7 @@ def download_file(scraper, url: str, filename: str) -> bool:
 # ================= Telegram Upload =================
 async def send_torrent(user: Client, file_path, category, file_name, file_url, magnet, size_mb=0):
     clean_name = os.path.basename(file_path)
-    caption = f"<b>{clean_name}\n\n#{category} #TamilMV\n\nPowered By ✨ {BOT_TAG}</b>"
+    caption = f"<b>{clean_name}</b>"
 
     async def safe_send(chat_id, reply_cmd=None):
         try:
