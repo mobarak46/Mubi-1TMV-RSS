@@ -13,7 +13,7 @@ USER_SESSION = os.getenv("USER_SESSION", "AQI0BzwArBF6vAZSGNdhat75W81dANymi35Mld
 
 # Web
 PORT = int(os.getenv("PORT", "8080")) 
-URL = os.getenv("URL", "") # Heroku or Koyeb Or Render Base Url 
+URL = os.getenv("URL", "https://given-maura-telegram-guys-c4d2e66b.koyeb.app/") # Heroku or Koyeb Or Render Base Url 
 
 # MongoDB
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Ramkumar2:l2wWk2tGYIbs1V6j@cluster0.3vh2aiz.mongodb.net/?appName=Cluster0") #Mongodb Url 
