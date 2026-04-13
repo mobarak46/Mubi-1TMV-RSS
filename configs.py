@@ -21,11 +21,11 @@ DATABASE_NAME = os.getenv("DATABASE_NAME", "AUTOLEEX") # example Cluster0
 
 # TamilMV settings
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.gripe/")
-TMV_TORRENT = int(os.getenv("TMV_TORRENT", ""))
-TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", ""))
-TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", ""))
-TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/7dq7mMLp/photo-2025-10-18-16-42-28-7562603128038621216.jpg") #torrant Pic
-BOT_TAG = os.getenv("BOT_TAG", "@SMD_BOTz") # File Prefix
+TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003917558467"))
+TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "-1003802832984"))
+TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", "-1003802832984"))
+TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/fzLP45dM/x.jpg") #torrant Pic
+BOT_TAG = os.getenv("BOT_TAG", "") # File Prefix
 
 # Internal
 PING_INTERVAL = int(os.getenv("PING_INTERVAL", "120"))
